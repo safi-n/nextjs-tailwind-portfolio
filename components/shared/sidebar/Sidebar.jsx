@@ -1,43 +1,19 @@
-import {
-  faGithub,
-  faBehance,
-  faLinkedin,
-  faUnsplash,
-  faDribbble,
-} from "@fortawesome/free-brands-svg-icons";
-import { icon } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-faGithub;
+import socialMediaIcons from "@/data/socialMediaIcons";
 const Sidebar = () => {
   return (
     <>
       <div className="sidebar-container fixed  top-[45%] mx-12">
-        <ul className="text-white">
-          <li>
-            <a href="https://github.com/safi-n" target="_blank">
-              <FontAwesomeIcon icon={icon({name: 'coffee', style: 'white'})} size="5x"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/safi-n" target="_blank">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/safi-n" target="_blank">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/safi-n" target="_blank">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/safi-n" target="_blank">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </li>
+        <ul className="text-white space-y-4">
+          {socialMediaIcons.map((icon) => {
+            return (
+              <li>
+                <label htmlFor={icon.label}>{icon.label}</label>
+                <a href={icon.link} target="_blank">
+                  <img src={icon.icon} alt={icon.label} />
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </>

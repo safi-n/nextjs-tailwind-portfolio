@@ -4,7 +4,7 @@ const HeroBanner = () => {
     <main className="container overflow-hidden absolute top-[27%] left-[15%] p-24">
       <div className="flex gap-10 justify-between items-center">
         <div className="hero-content text-white leading-12">
-          <p className="xl-header">Hey, I'm Safi</p>
+          <p className="xl-header">Hey, I'm <span className="cool-font">Safi</span></p>
           <p className="m-header -mt-2">
             FrontEnd Developer & MultiMedia Designer
           </p>
