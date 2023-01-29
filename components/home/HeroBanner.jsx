@@ -1,15 +1,15 @@
 import Image from "next/image";
 const HeroBanner = () => {
   return (
-    <main className="bg-black h-[100vh] w-full overflow-hidden">
-      <div className="hero-banner flex gap-[26em] h-full w-full items-center justify-center">
-        <div className="hero-content text-white">
-          <p className="text-[4.8em] font-bold">Hey, I'm Safi</p>
-          <p className="text-[1.43em] mb-1">
+    <main className="container overflow-hidden absolute top-[27%] left-[15%] p-24">
+      <div className="flex gap-10 justify-between items-center">
+        <div className="hero-content text-white leading-12">
+          <p className="xl-header">Hey, I'm Safi</p>
+          <p className="m-header -mt-2">
             FrontEnd Developer & MultiMedia Designer
           </p>
           <div className="skills-container">
-            <p className="text-[0.8em]">
+            <p className="text-[0.85em] font-light">
               Javascript, React, NextJS, Figma, Wordpress & Adobe
               <span className="text-[#FE1DC3]"> Xd</span> -
               <span className="text-[#F39202]"> Ai</span> -
