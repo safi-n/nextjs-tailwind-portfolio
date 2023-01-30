@@ -4,18 +4,18 @@ import Image from "next/image";
 const TechProjects = () => {
   return (
     <div className="bg-white">
-      <div className="container">
-        <ul>
+      <div className="container border-2">
+        <ul className="flex">
           {techProjects.map((project) => {
             return (
-              <li key={project.id}>
+              <li key={project.id} className="p-7">
                 <p>{project.description}</p>
                 <div className="company-brand">
                   <Image
                     src={project.logo}
                     alt={project.company}
-                    width={100}
-                    height={100}
+                    width='auto'
+                    height='auto'
                     priority
                   />
                   <p>{project.company}</p>

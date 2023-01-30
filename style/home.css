@@ -13,3 +13,9 @@
 .icon-slider-container{
   box-shadow: 3px 0px 12px rgba(52, 52, 52, 0.199);
 }
+
+.company-brand > img {
+  height: 8em;
+  width: 6em;
+  object-fit: contain;
+}
