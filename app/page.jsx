@@ -2,6 +2,7 @@ import ExperinceCode from "@/components/ExperinceCode";
 import HeroBanner from "@/components/HeroBanner";
 import MySkills from "@/components/TechSkills";
 import Speciality from "@/components/Speciality";
+import TechProjects from "@/components/Techprojects";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <div className="space-bar bg-white"/>
       <MySkills/>
       <div className="space-bar bg-white"/>
+      <TechProjects/>
     </main>
   )
 }
