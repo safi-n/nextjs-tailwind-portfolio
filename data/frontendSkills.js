@@ -31,4 +31,5 @@ const frontEndSkills = [
     label: 'Tailwind CSS'
   },
 ] 
-export default frontEndSkills
+
+export default frontEndSkills;
