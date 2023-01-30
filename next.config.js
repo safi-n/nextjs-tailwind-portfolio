@@ -23,4 +23,4 @@ const nextConfig = {
   
 // }
 
-module.exports = nextConfig, webpack
+module.exports = nextConfig

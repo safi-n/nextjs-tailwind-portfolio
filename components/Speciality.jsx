@@ -18,7 +18,7 @@ const Speciality = () => {
             })
           }
         </ul>
-        <div className="l-header w-[23rem]">
+        <div className="text-[3.5rem] w-[24rem]">
           <p>
             Turning ideas <span id="speciality-font">into products</span> is my speciality
           </p>
