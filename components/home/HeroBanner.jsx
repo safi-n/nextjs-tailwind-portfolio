@@ -23,9 +23,10 @@ const HeroBanner = () => {
             <Image
               src={require("../../public/assets/imgs/safiIMG.jpg")}
               alt="hero image"
-              width={250}
-              height={250}
-              className="rounded-full"
+              width='auto'
+              height='auto'
+              className="rounded-full hero-img"
+              priority
             />
           </div>
         </div>
