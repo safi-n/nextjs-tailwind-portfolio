@@ -5,6 +5,7 @@ import RjsIcon from '../public/assets/png/ReactLogo.png'
 import VJsIcon from '../public/assets/png/VuejsLogo.png'
 import NjsIcon from '../public/assets/png/NextJsLogo.svg'
 import MUIicon from '../public/assets/png/MUIicon.png'
+import FramerIcon from '../public/assets/svg/framerMotionIcon.svg'
 const frontEndSkills = [
   {
     id: uuid(),
@@ -35,6 +36,11 @@ const frontEndSkills = [
     id: uuid(),
     icon: MUIicon,
     label: 'Material UI'
+  },
+  {
+    id: uuid(),
+    icon: FramerIcon,
+    label: 'Framer Motion'
   },
 ] 
 

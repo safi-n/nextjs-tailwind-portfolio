@@ -5,6 +5,8 @@ import RapidIcon from '../public/assets/png/RapidIcon.png'
 import FireBIcon from '../public/assets/png/FirebaseIcon.png'
 import SanityIcon from '../public/assets/png/SanityIcon.png'
 import WordpressIcon from '../public/assets/png/WordPressIcon.png'
+// import ShopifyIcon from '../public/assets/png/ShopifyIcon.png'
+import GithubIcon from '../public/assets/svg/Icon awesome-github.svg'
 const backendSkills = [
   {
     id: uuid(),
@@ -15,6 +17,11 @@ const backendSkills = [
     id: uuid(),
     icon: NpmIcon,
     label: 'NPM'
+  },
+  {
+    id: uuid(),
+    icon: GithubIcon,
+    label: 'Github'
   },
   {
     id: uuid(),
@@ -36,6 +43,11 @@ const backendSkills = [
     icon: WordpressIcon,
     label: 'Headless + Wordpres'
   },
+  // {
+  //   id: uuid(),
+  //   icon: ShopifyIcon,
+  //   label: 'Shopify + JS'
+  // },
 ]
 
 export default backendSkills
