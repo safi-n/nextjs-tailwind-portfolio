@@ -4,6 +4,7 @@ import TCIcon from '../public/assets/png/TailwindCSSLogo.png'
 import RjsIcon from '../public/assets/png/ReactLogo.png'
 import VJsIcon from '../public/assets/png/VuejsLogo.png'
 import NjsIcon from '../public/assets/png/NextJsLogo.svg'
+import MUIicon from '../public/assets/png/MUIicon.png'
 const frontEndSkills = [
   {
     id: uuid(),
@@ -29,6 +30,11 @@ const frontEndSkills = [
     id: uuid(),
     icon: TCIcon,
     label: 'Tailwind CSS'
+  },
+  {
+    id: uuid(),
+    icon: MUIicon,
+    label: 'Material UI'
   },
 ] 
 
