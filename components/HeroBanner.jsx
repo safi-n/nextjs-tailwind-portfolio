@@ -21,7 +21,7 @@ const HeroBanner = () => {
         <div className="hero-image">
           <div className="hero-img-glow-effect rounded-full">
             <Image
-              src={require("../../public/assets/imgs/safiIMG.jpg")}
+              src={require("../public/assets/imgs/safiIMG.jpg")}
               alt="hero image"
               width='auto'
               height='auto'
