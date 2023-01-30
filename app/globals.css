@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 :root{
   background-color: rgb(9, 9, 9);
 }
@@ -18,8 +18,8 @@
   font-weight: bold;
 }
 .l-header{
-  font-size: 3.2rem;
-
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 .m-header{
   font-size: 1.52rem;
@@ -28,6 +28,9 @@
 
 .cool-font{
   font-family: 'Dancing Script', cursive;
+}
+#speciality-font{
+  font-family: 'Permanent Marker', cursive;
 }
 
 .space-bar{
