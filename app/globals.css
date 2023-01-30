@@ -24,14 +24,22 @@
   font-size: 1.52rem;
   font-weight: 300;
 }
+.n-header{
+  font-size: 1.45rem;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
 #speciality-font{
   font-weight: 500;
+  background: -webkit-linear-gradient(left, #a00abe, #0e4267, #9382fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .cool-font{
   font-family: 'Dancing Script', cursive;
 }
 
 .space-bar{
-  height: 5rem;
+  height: 8rem;
 }
 
