@@ -35,6 +35,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+#speciality-font{
+  font-weight: 500;
+  background: -webkit-linear-gradient(left, #d445ff, #4778ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .cool-font{
   font-family: 'Dancing Script', cursive;
 }
