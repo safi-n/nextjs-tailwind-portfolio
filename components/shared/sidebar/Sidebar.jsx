@@ -1,5 +1,5 @@
 import socialMediaIcons from "@/data/socialMediaIcons";
-import { ReactSVG } from "react";
+import Image from "next/image";
 const Sidebar = () => {
   return (
     <>
@@ -7,10 +7,10 @@ const Sidebar = () => {
         <ul className="text-white space-y-4">
           {socialMediaIcons.map((icon) => {
             return (
-              <li>
+              <li key={icon.id}>
                 <label htmlFor={icon.label}>{icon.label}</label>
                 <a href={icon.link} target="_blank">
-                  <ReactSVG />
+                  <Image src={icon.img} alt={icon.label} width={25} height={25}/>
                 </a>
               </li>
             );
