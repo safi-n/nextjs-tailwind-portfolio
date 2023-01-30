@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <main>
       <HeroBanner/>
+      <div className="space-bar bg-white"/>
     </main>
   )
 }

@@ -1,10 +1,12 @@
 import Image from "next/image";
 const HeroBanner = () => {
   return (
-    <main className="container overflow-hidden absolute top-[27%] left-[15%] p-24">
-      <div className="flex gap-10 justify-between items-center">
+    <main className="container h-[100vh]">
+      <div className="flex absolute top-[33%] left-[20%] gap-56 p-12 justify-between items-center">
         <div className="hero-content text-white leading-12">
-          <p className="xl-header">Hey, I'm <span className="cool-font">Safi</span></p>
+          <p className="xl-header">
+            Hey, I'm <span className="cool-font">Safi</span>
+          </p>
           <p className="m-header -mt-2">
             FrontEnd Developer & MultiMedia Designer
           </p>
@@ -23,8 +25,8 @@ const HeroBanner = () => {
             <Image
               src={require("../public/assets/imgs/safiIMG.jpg")}
               alt="hero image"
-              width='auto'
-              height='auto'
+              width="auto"
+              height="auto"
               className="rounded-full hero-img"
               priority
             />
