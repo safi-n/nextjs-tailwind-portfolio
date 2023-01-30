@@ -9,7 +9,7 @@ const Sidebar = () => {
             return (
               <li key={icon.id}>
                 <label htmlFor={icon.label}>{icon.label}</label>
-                <a href={icon.link} target="_blank">
+                <a href={icon.link} target="_blank" className='text-white'>
                   <Image src={icon.img} alt={icon.label} width='auto' height='auto'/>
                 </a>
               </li>

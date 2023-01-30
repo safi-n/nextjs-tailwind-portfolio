@@ -2,7 +2,7 @@ import {v4 as uuid} from 'uuid'
 import WireframeIcon from '../public/assets/png/wireframeIcon.png'
 import UIIcon from '../public/assets/png/UIDesignIcon.png'
 import DevelopmentIcon from '../public/assets/png/DevelopmentIcon.png'
-const SpecialityIcons = [
+const specialityIcons = [
   {
     id: uuid(),
     icon: WireframeIcon,
@@ -22,3 +22,5 @@ const SpecialityIcons = [
     description: 'The development phase is the process of converting the approved prototype into a functioning web application. This involves writing code, integrating technologies and features, and ensuring the design elements are properly implemented.'
   },
 ]
+
+export default specialityIcons
