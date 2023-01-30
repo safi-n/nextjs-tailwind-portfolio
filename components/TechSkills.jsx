@@ -6,7 +6,7 @@ const MySkills = () => {
   return (
     <div className=" bg-white">
       <div className="container">
-        <p className="l-header font-bold mb-10">Tech Skills</p>
+        <p className="l-header font-bold mb-12">Tech Skills</p>
         <div className="flex justify-between gap-32">
           <div className="frontend-container">
             <div className="frontend-skills">

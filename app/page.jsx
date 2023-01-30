@@ -18,6 +18,7 @@ export default function Home() {
       <MySkills/>
       <div className="space-bar bg-white"/>
       <TechProjects/>
+      <div className="space-bar bg-white"/>
     </main>
   )
 }

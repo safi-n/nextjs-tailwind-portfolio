@@ -15,7 +15,9 @@
 }
 
 .company-brand > img {
-  height: 8em;
-  width: 6em;
+  height: 3em;
+  width: 3em;
   object-fit: contain;
+  border-radius: 50%;
+  margin-right: 10px;
 }
