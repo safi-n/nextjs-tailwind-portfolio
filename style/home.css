@@ -10,3 +10,6 @@
   height: 15em;
   width: 15em;
 }
+.icon-slider-container{
+  box-shadow: 3px 0px 12px rgba(52, 52, 52, 0.199);
+}
