@@ -3,7 +3,7 @@ import JSIcon from '../public/assets/png/JavascriptLogo.png'
 import TCIcon from '../public/assets/png/TailwindCSSLogo.png'
 import RjsIcon from '../public/assets/png/ReactLogo.png'
 import VJsIcon from '../public/assets/png/VuejsLogo.png'
-import NjsIcon from '../public/next.svg'
+import NjsIcon from '../public/assets/png/NextJsLogo.svg'
 const frontEndSkills = [
   {
     id: uuid(),
