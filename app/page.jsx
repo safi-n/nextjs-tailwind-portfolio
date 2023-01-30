@@ -1,6 +1,6 @@
 import ExperinceCode from "@/components/ExperinceCode";
 import HeroBanner from "@/components/HeroBanner";
-import MySkills from "@/components/MySkills";
+import MySkills from "@/components/TechSkills";
 import Speciality from "@/components/Speciality";
 
 export default function Home() {
