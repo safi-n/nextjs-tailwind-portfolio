@@ -7,7 +7,7 @@ const MySkills = () => {
     <div className=" bg-white">
       <div className="container">
         <p className="l-header font-bold mb-12">Tech Skills</p>
-        <div className="flex justify-between gap-32">
+        <div className="min-[900px]:flex justify-between gap-32 max-[800px]:flex-col">
           <div className="frontend-container">
             <div className="frontend-skills">
               <p className="font-bold text-2xl mb-8 speciality-font">
