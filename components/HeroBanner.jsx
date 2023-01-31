@@ -2,7 +2,7 @@ import Image from "next/image";
 const HeroBanner = () => {
   return (
     <main className="container h-[100vh]">
-      <div className="flex absolute top-[33%] left-[20%] gap-56 p-12 justify-between items-center">
+      <div className="hero-main-container flex absolute top-[33%] left-[20%] gap-56 p-12 justify-between items-center">
         <div className="hero-content text-white leading-12">
           <p className="xl-header">
             Hey, I'm <span className="cool-font">Safi</span>

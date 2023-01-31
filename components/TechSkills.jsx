@@ -7,8 +7,8 @@ const MySkills = () => {
     <div className=" bg-white">
       <div className="container">
         <p className="l-header font-bold mb-12">Tech Skills</p>
-        <div className="min-[900px]:flex justify-between gap-32 max-[800px]:flex-col">
-          <div className="frontend-container">
+        <div className="tech-main-conatiner justify-between gap-32">
+          <div className="frontend-container w-[50%]">
             <div className="frontend-skills">
               <p className="font-bold text-2xl mb-8 speciality-font">
                 FrontEnd
@@ -32,7 +32,7 @@ const MySkills = () => {
               </ul>
             </div>
           </div>
-          <div className="backend-container w-[50%]">
+          <div className="backend-container w-[50%] ">
             <p className="font-bold text-2xl mb-8 speciality-font">BackEnd & CMS</p>
             <ul className="grid grid-cols-4 grid-rows-2 gap-12">
               {backendSkills.map((skill) => {

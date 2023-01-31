@@ -1,12 +1,12 @@
 .hero-img-glow-effect {
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
   box-shadow: 
   4px  6px 25px 1px #ff0000, 
   -6px -4px 29px  1px #0c07ff,
   4px -6px 34px  1px #1482d1,
   -5px 4px 35px  1px #ff9900;
 }
-.hero-img{
+.hero-img img{
   height: 15em;
   width: 15em;
 }
@@ -20,4 +20,29 @@
   object-fit: contain;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .backend-container{
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .frontend-container{
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .tech-main-conatiner{
+    display: inline;
+  }
+  .hero-main-container{
+    display: inline;
+  }
+  .hero-img img{
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+.tech-main-conatiner{
+  display: flex;
 }
