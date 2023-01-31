@@ -12,5 +12,6 @@
 @media (max-width: 800px) {
   .skill-main-container{
     flex-direction: column;
+    padding: 1rem;
   }
 }

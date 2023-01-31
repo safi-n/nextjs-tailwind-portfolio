@@ -1,5 +1,12 @@
 /* Hero Banner  Style */
-.hero-main-container{
+.hero-img-glow-effect {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 6px 25px 1px #ff0000, -6px -4px 29px 1px #0c07ff,
+    4px -6px 34px 1px #1482d1, -5px 4px 35px 1px #ff9900;
+}
+
+.hero-main-container {
+  color: white;
   display: flex;
   padding: 2rem;
   align-items: center;
@@ -7,52 +14,31 @@
   width: 75%;
   margin: auto;
   justify-content: space-between;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: center;
+  align-items: center;
 }
-.hero-img-glow-effect {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 
-  4px  6px 25px 1px #ff0000, 
-  -6px -4px 29px  1px #0c07ff,
-  4px -6px 34px  1px #1482d1,
-  -5px 4px 35px  1px #ff9900;
-}
-.hero-img-glow-effect img{
+.hero-img-glow-effect img {
   width: 15rem;
   height: 100%;
 }
 
-
-
-.company-brand > img {
-  width: 3em;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.projects-container{
-  display: flex;
-}
-
-
-
 /* ------------media Query area */
 @media (max-width: 800px) {
-  .backend-container{
-    width: 100%;
-  }
-  .frontend-container{
-    width: 100%;
-    padding-bottom: 4rem;
-  }
-  .hero-main-container{
-    display: inline;
-  }
-  .projects-container{
-    display: inline;
+  .hero-main-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
   }
   .hero-content{
-    margin-bottom: 3rem;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    margin-top: 5rem;
   }
 }

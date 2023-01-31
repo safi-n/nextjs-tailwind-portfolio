@@ -9,7 +9,7 @@ const TechProjects = () => {
         <ul className="projects-container justify-evenly gap-9">
           {techProjects.map((project) => {
             return (
-              <li key={project.id} className="p-4 py-7 shadow-lg">
+              <li key={project.id} className="p-4 py-7 project-item">
                 <p className="font-light mb-5">{project.description}</p>
                 <div className="company-brand flex items-center">
                   <Image
