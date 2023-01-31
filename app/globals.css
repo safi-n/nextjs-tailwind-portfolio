@@ -28,7 +28,8 @@
 }
 .l-header{
   /* font-size: 3.5rem; */
-  font-size: clamp(1rem, 5vw, 3.5rem);
+  font-size: clamp(1rem, 5vw, 3.8rem);
+  font-weight: 600;
 }
 .m-header{
   /* font-size: 1.52rem; */
@@ -42,12 +43,6 @@
 }
 .mini-font{
   font-size: clamp(0.4rem, 4vw, 0.85rem );
-}
-.speciality-font{
-  font-weight: 500;
-  background: -webkit-linear-gradient(left, #a00abe, #0e4267, #8975ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 #speciality-font{
   font-weight: 500;

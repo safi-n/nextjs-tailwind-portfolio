@@ -3,34 +3,30 @@ import Image from "next/image";
 
 const Speciality = () => {
   return (
-    <div className="bg-white">
+    <div className="h-[80vh] bg-white">
       <div className="container">
-        <div className="speciality-main-container">
-          <ul className="border-2">
-            {specialityIcons.map((speciality) => {
-              return (
-                <li key={speciality.id}>
-                  <div className="icon-speciality">
-                    <Image
-                      src={speciality.icon}
-                      alt={speciality.title}
-                      width="auto"
-                      height="auto"
-                    />
-                  </div>
-                  <div>
-                    <p className="n-header">{speciality.title}</p>
-                    <p className="font-light">{speciality.description}</p>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-          <div className="lg-header border-2">
-            <p>
-              Turning ideas <span id="speciality-font">into products</span> is
-              my speciality
-            </p>
+        <div className="spciality-container">
+          <div className="speciality-lists">
+            <ul className="flex-col space-y-9">
+              {
+                specialityIcons.map(speciality =>{
+                  return (
+                    <li key={speciality.id} className="flex w-[80%]">
+                      <div className="speciality-icon w-[9rem] mr-7">
+                        <Image src={speciality.icon} width='auto' height='auto' alt={speciality.title}/>
+                      </div>
+                      <div className="speciality-description">
+                        <p className="n-header">{speciality.title}</p>
+                        <p>{speciality.description}</p>
+                      </div>
+                    </li>
+                  )
+                })
+              }
+            </ul>
+          </div>
+          <div className="speciality-header">
+            <p className="l-header">Turning ideas <span className="speciality-font"> into product </span> is my specialty</p>
           </div>
         </div>
       </div>
