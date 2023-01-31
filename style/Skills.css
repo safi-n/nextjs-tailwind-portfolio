@@ -1,6 +1,7 @@
 .skill-main-container{
   display: flex;
-  border: 1px solid red;
+  justify-content: space-between;
+  flex: 1;
 }
 .skill-image img{
   width: 40px;
@@ -9,7 +10,7 @@
 }
 
 @media (max-width: 800px) {
-  .tech-main-conatiner{
-    display: inline;
+  .skill-main-container{
+    flex-direction: column;
   }
 }

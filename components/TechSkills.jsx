@@ -7,15 +7,15 @@ const MySkills = () => {
     <div className=" bg-white">
       <div className="container">
         <p className="l-header mb-[3.5rem]">Tech Skills</p>
-        <div className="skill-main-container">
+        <div className="skill-main-container eqwrap">
           {/* FrontEnd container */}
           <div className="frontend-container">
             <p className="font-bold text-2xl mb-8 speciality-font">FrontEnd</p>
-            <ul className="grid grid-cols-4 grid-rows-2 gap-12 ">
+            <ul className="grid grid-cols-4 grid-rows-2">
               {frontEndSkills.map((skill) => {
                 return (
-                  <li key={skill.id}>
-                    <div className="skill-image h-[4em]">
+                  <li key={skill.id} className="mb-12 mr-12">
+                    <div className="skill-image">
                       <Image
                         src={skill.icon}
                         alt={skill.label}
@@ -30,14 +30,14 @@ const MySkills = () => {
             </ul>
           </div>
           {/* BackEnd container */}
-          <div className="backend-container">
+          <div className="backend-container ">
             <p className="font-bold text-2xl mb-8 speciality-font">
               BackEnd & CMS
             </p>
-            <ul className="grid grid-cols-4 grid-rows-2 gap-12">
+            <ul className="grid grid-cols-4 grid-rows-2">
               {backendSkills.map((skill) => {
                 return (
-                  <li key={skill.id}>
+                  <li key={skill.id} className="mb-12" >
                     <div className="skill-image">
                       <Image
                         src={skill.icon}
