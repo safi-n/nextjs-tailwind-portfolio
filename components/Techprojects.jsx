@@ -5,7 +5,7 @@ const TechProjects = () => {
   return (
     <div className="bg-white">
       <div className="container">
-        <p className="l-header font-bold mb-12">Tech Projects</p>
+        <p className="l-header font-bold mb-12">Projects</p>
         <ul className="projects-container justify-evenly gap-9">
           {techProjects.map((project) => {
             return (
