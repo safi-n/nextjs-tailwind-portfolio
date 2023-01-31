@@ -6,6 +6,7 @@
 }
 .spciality-container {
   display: flex;
+  column-gap: 3rem;
   align-items: center;
   -webkit-box-align: start;
   -moz-box-align: start;
@@ -36,6 +37,9 @@
     -ms-flex-order: 2;
     -webkit-order: 2;
     order: 2;
+  }
+  .speciality-header{
+    margin-bottom: 2rem;
   }
   .spciality-container{
     flex-flow: column;

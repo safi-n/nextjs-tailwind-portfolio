@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Speciality = () => {
   return (
-    <div className="h-[80vh] bg-white">
+    <div className=" bg-white">
       <div className="container">
         <div className="spciality-container">
           <div className="speciality-lists">
@@ -11,8 +11,8 @@ const Speciality = () => {
               {
                 specialityIcons.map(speciality =>{
                   return (
-                    <li key={speciality.id} className="flex w-[80%]">
-                      <div className="speciality-icon w-[9rem] mr-7">
+                    <li key={speciality.id} className="flex">
+                      <div className="speciality-icon w-[8rem] mr-7">
                         <Image src={speciality.icon} width='auto' height='auto' alt={speciality.title}/>
                       </div>
                       <div className="speciality-description">
