@@ -36,35 +36,8 @@
 .projects-container{
   display: flex;
 }
-.speciality-conatiner{
-  display: flex;
-}
-.icon-speciality img{
-  height: 70px;
-  width: 70px;
-  object-fit: contain;
-}
 .skill-image img{
   width: 40px;
-  height: 100%;
-  object-fit: contain;
-}
-
-/* Slider style */
-.slider-container{
-  position: fixed;
-  top: 40%;
-  background-color: white;
-  width: 4rem;
-  box-shadow: 3px 0px 12px rgba(52, 52, 52, 0.199);
-  padding: 1rem;
-  padding-bottom: 3rem;
-}
-.slider-container li{
-  margin-top: 2rem;
-}
-.side-icon-link img{
-  width: 23px;
   height: 100%;
   object-fit: contain;
 }
@@ -88,28 +61,7 @@
   .projects-container{
     display: inline;
   }
-  .speciality-conatiner{
-    display: inline;
-  }
   .hero-content{
     margin-bottom: 3rem;
   }
-  .slider-container{
-    visibility: hidden;
-  }
-  /* 
-  .slider-container ul{
-    width: 2rem;
-    display: flex;
-  }
-  .side-icon-link img{
-    width: 23px;
-    height: 100%;
-    object-fit: contain;
-    margin-right: 2rem;
-  }
-  .slider-container li{
-    margin-bottom: 0rem;
-
-  } */
 }

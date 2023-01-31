@@ -1,0 +1,27 @@
+/* Slider style */
+.slider-container{
+  position: fixed;
+  top: 35%;
+  background-color: white;
+  width: 3.4rem;
+  box-shadow: 3px 0px 12px rgba(52, 52, 52, 0.199);
+  padding-bottom: 3rem;
+}
+.slider-container li{
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.side-icon-link img:hover{
+  width: 29px;
+  height: 100%;
+}
+.side-icon-link img{
+  width: 23px;
+  height: 100%;
+}
+
+@media (max-width:800px){
+  .slider-container{
+    visibility: hidden;
+  }
+}

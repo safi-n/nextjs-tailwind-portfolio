@@ -1,0 +1,13 @@
+.speciality-conatiner {
+  display: flex;
+}
+.icon-speciality img {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+}
+@media (max-width: 800px) {
+  .speciality-conatiner {
+    display: inline;
+  }
+}
