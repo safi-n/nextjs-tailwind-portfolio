@@ -1,9 +1,9 @@
 import Image from "next/image";
 const HeroBanner = () => {
   return (
-    <main className="container h-[100vh]">
-      <div className="hero-main-container flex absolute top-[33%] left-[20%] gap-56 p-12 justify-between items-center">
-        <div className="hero-content text-white leading-12">
+    <main className="h-[100vh]">
+        <div className="hero-main-container">
+        <div className="hero-content text-white">
           <p className="xl-header">
             Hey, I'm <span className="cool-font">Safi</span>
           </p>
@@ -11,7 +11,7 @@ const HeroBanner = () => {
             FrontEnd Developer & MultiMedia Designer
           </p>
           <div className="skills-container">
-            <p className="text-[0.85em] font-light">
+            <p className="mini-font font-light">
               Javascript, React, NextJS, Figma, Wordpress & Adobe
               <span className="text-[#FE1DC3]"> Xd</span> -
               <span className="text-[#F39202]"> Ai</span> -
@@ -27,12 +27,12 @@ const HeroBanner = () => {
               alt="hero image"
               width="auto"
               height="auto"
-              className="rounded-full hero-img"
+              className="rounded-full"
               priority
             />
           </div>
         </div>
-      </div>
+        </div>
     </main>
   );
 };

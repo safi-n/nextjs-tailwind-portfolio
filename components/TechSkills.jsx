@@ -38,12 +38,12 @@ const MySkills = () => {
               {backendSkills.map((skill) => {
                 return (
                   <li key={skill.id}>
-                    <div className="skill-image h-[4em]">
+                    <div className="skill-image">
                       <Image
                         src={skill.icon}
                         alt={skill.label}
-                        width={50}
-                        height={50}
+                        width='auto'
+                        height='auto'
                       />
                     </div>
                     <p>{skill.label}</p>

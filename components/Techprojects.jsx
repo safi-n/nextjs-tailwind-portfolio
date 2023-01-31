@@ -6,7 +6,7 @@ const TechProjects = () => {
     <div className="bg-white">
       <div className="container">
         <p className="l-header font-bold mb-12">Tech Projects</p>
-        <ul className="flex justify-evenly gap-9">
+        <ul className="projects-container justify-evenly gap-9">
           {techProjects.map((project) => {
             return (
               <li key={project.id} className="p-4 py-7 shadow-lg">
