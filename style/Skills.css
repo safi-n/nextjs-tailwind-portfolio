@@ -1,0 +1,15 @@
+.skill-main-container{
+  display: flex;
+  border: 1px solid red;
+}
+.skill-image img{
+  width: 40px;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 800px) {
+  .tech-main-conatiner{
+    display: inline;
+  }
+}

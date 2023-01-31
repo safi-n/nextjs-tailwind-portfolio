@@ -1,7 +1,4 @@
 import "./globals.css";
-import "../style/home.css";
-import '../style/Slider.css'
-import '../style/Speciality.css'
 import Sidebar from "@/components/shared/sidebar/Sidebar";
 
 export default function RootLayout({ children }) {

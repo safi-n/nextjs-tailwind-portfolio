@@ -30,17 +30,11 @@
   border-radius: 50%;
   margin-right: 10px;
 }
-.tech-main-conatiner{
-  display: flex;
-}
+
 .projects-container{
   display: flex;
 }
-.skill-image img{
-  width: 40px;
-  height: 100%;
-  object-fit: contain;
-}
+
 
 
 /* ------------media Query area */
@@ -51,9 +45,6 @@
   .frontend-container{
     width: 100%;
     padding-bottom: 4rem;
-  }
-  .tech-main-conatiner{
-    display: inline;
   }
   .hero-main-container{
     display: inline;
