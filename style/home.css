@@ -41,4 +41,11 @@
     order: 1;
     margin-top: 5rem;
   }
+  .hero-img-glow-effect{
+    width: 9em;
+    height: 100%;
+  }
+  .skills-container{
+    font-size: clamp(0.4rem, 4vw, 0.85rem);
+  }
 }

@@ -4,13 +4,13 @@ const HeroBanner = () => {
     <main className="h-[100vh]">
         <div className="hero-main-container">
         <div className="hero-content">
-          <p className="xl-header text-center">
-            Hey, I'm <span className="cool-font">Safi</span>
+          <p className="xl-header">
+            Hey, I'm <span className="cool-font" >Safi</span>
           </p>
           <p className="m-header -mt-2 max-[800px]:text-center">
             FrontEnd Developer & MultiMedia Designer
           </p>
-          <div className="skills-container text-center max-[800px]:mt-5">
+          <div className="skills-container max-[800px]:mt-5">
             <p className="mini-font font-light">
               Javascript, React, NextJS, Figma, Wordpress & Adobe
               <span className="text-[#FE1DC3]"> Xd</span> -

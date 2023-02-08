@@ -8,6 +8,7 @@
 @import url("../style/Slider.css");
 @import url("../style/Speciality.css");
 @import url("../style/Projects.css");
+
 :root {
   background-color: rgb(9, 9, 9);
 }
@@ -18,7 +19,7 @@
 
 .xl-header {
   /* font-size: 5rem; */
-  font-size: clamp(3.5rem, 5vw, 8rem);
+  font-size: clamp(2.6rem, 6vw, 5rem);
   font-weight: bold;
 }
 .lg-header {
@@ -26,12 +27,12 @@
 }
 .l-header {
   /* font-size: 3.5rem; */
-  font-size: clamp(2rem, 4.5vw, 3.8rem);
+  font-size: clamp(2rem, 5vw, 3.8rem);
   font-weight: 600;
 }
 .m-header {
   /* font-size: 1.52rem; */
-  font-size: clamp(0.9rem, 4vw, 1.54rem);
+  font-size: clamp(0.5rem, 5vw, 1.54rem);
   font-weight: 300;
 }
 .n-header {
@@ -49,7 +50,7 @@
   -webkit-text-fill-color: transparent;
 }
 .cool-font {
-  font-family: "Dancing Script", cursive;
+  font-family: "poppin", sans-serif;
 }
 
 .space-bar {
@@ -78,5 +79,12 @@
     width: 100%;
     overflow-x: hidden;
     padding: 4.8rem;
+  }
+  .xl-header {
+    /* font-size: 5rem; */
+    text-align: center;
+  }
+  .skills-container{
+    text-align: center;
   }
 }
