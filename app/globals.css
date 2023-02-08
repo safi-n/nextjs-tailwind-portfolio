@@ -1,63 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
-@import url('../style/Skills.css');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Solitreo&display=swap");
+@import url("../style/Skills.css");
 @import url("../style/home.css");
-@import url('../style/Slider.css');
-@import url('../style/Speciality.css');
-@import url('../style/Projects.css');
-:root{
+@import url("../style/Slider.css");
+@import url("../style/Speciality.css");
+@import url("../style/Projects.css");
+:root {
   background-color: rgb(9, 9, 9);
 }
-.container{
+.container {
   width: min(75vw);
   margin-inline: auto;
 }
-@media (max-width:800px) {
-  .container{
-    width: 90vw;
-  }
-}
 
-.xl-header{
+.xl-header {
   /* font-size: 5rem; */
   font-size: clamp(3.5rem, 5vw, 8rem);
   font-weight: bold;
 }
-.lg-header{
+.lg-header {
   font-size: clamp(2rem, 5vw, 3.5rem);
 }
-.l-header{
+.l-header {
   /* font-size: 3.5rem; */
   font-size: clamp(2rem, 4.5vw, 3.8rem);
   font-weight: 600;
 }
-.m-header{
+.m-header {
   /* font-size: 1.52rem; */
   font-size: clamp(0.9rem, 4vw, 1.54rem);
   font-weight: 300;
 }
-.n-header{
-  font-size: clamp(1.1rem, 4vw, 1.5rem );
+.n-header {
+  font-size: clamp(1.1rem, 4vw, 1.5rem);
   font-weight: 600;
   padding-bottom: 4px;
 }
-.mini-font{
-  font-size: clamp(0.4rem, 4vw, 0.85rem );
+.mini-font {
+  font-size: clamp(0.4rem, 4vw, 0.85rem);
 }
-#speciality-font{
+#speciality-font {
   font-weight: 500;
   background: -webkit-linear-gradient(left, #d445ff, #4778ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.cool-font{
-  font-family: 'Dancing Script', cursive;
+.cool-font {
+  font-family: "Dancing Script", cursive;
 }
 
-.space-bar{
+.space-bar {
   height: 8rem;
 }
 
+.half__container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  left: 200px;
+  width: 86vw;
+  overflow-x: auto;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90vw;
+  }
+  .half__container {
+    position: relative;
+    flex-direction: column;
+    gap: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 4.8rem;
+  }
+}
