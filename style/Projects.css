@@ -12,6 +12,11 @@
   grid-auto-columns: 36%;
   overflow-x: auto;
 }
+.tech-projects__scroll--button{
+  position: inherit;
+  display: inline-flex;
+  border: 1px solid red;
+}
 .project-item{
   cursor: pointer;
   border: 1px solid rgb(238, 238, 238);

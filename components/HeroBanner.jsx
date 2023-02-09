@@ -1,11 +1,33 @@
+"use client"
 import Image from "next/image";
+import { useEffect } from "react";
 const HeroBanner = () => {
+
+  useEffect(() => {
+    const Letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    document.querySelector('.cool-font').onmouseover = event => {
+      let itteration = 0;
+      const interval = setInterval(() => {
+        event.target.innerText = event.target.innerText.split('').map((letter, index) => {
+          if(index < itteration) {
+            return event.target.dataset.tag[index]
+          }
+          return Letters[Math.floor(Math.random() * 26)]
+        })
+        .join('')
+        if(itteration >= event.target.dataset.tag.length) {
+          return clearInterval(interval)
+        }
+        itteration += 1 / 3
+      }, 60)
+    }
+  },[])
   return (
     <main className="h-[100vh]">
         <div className="hero-main-container">
         <div className="hero-content">
-          <p className="xl-header">
-            Hey, I'm <span className="cool-font" >Safi</span>
+          <p className="xl-header animate-text">
+            Hey, I'm <span className="cool-font" data-tag='SAFI'>SAFI</span>
           </p>
           <p className="m-header -mt-2 max-[800px]:text-center">
             FrontEnd Developer & MultiMedia Designer
