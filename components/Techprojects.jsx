@@ -2,11 +2,8 @@ import techProjects from "@/data/techProjects";
 import Image from "next/image";
 const TechProjects = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white flex-col">
       <div className="tech-projects__container--main">
-      <div className="tech-projects__scroll--button">
-          <button>right</button>
-        </div>
         <div className="half__container bg-white">
           <p className="l-header font-bold mb-12">Projects</p>
           <ul className="tech-projects__lists--container gap-9">
@@ -29,6 +26,9 @@ const TechProjects = () => {
             })}
           </ul>
         </div>
+      </div>
+      <div className="tech-projects__scroll--button">
+        <button>right</button>
       </div>
     </div>
   );
