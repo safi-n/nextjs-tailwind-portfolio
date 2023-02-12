@@ -12,8 +12,8 @@ const CreativeProjects = () => {
                   >
                     <Image
                       src={project.img}
-                      width='auto'
-                      height='auto'
+                      width='900'
+                      height='900'
                       alt={project.title}
                       priority
                     />

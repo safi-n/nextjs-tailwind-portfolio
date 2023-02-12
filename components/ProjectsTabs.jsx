@@ -50,38 +50,13 @@ const ProjectsTabs = () => {
         <div className="tab-content">
           {/* Graphic & Motion Design */}
           <div className="tab-content-item active" id="tab1-content">
-            <CreativeProjects/>
+            <CreativeProjects />
           </div>
           <div className="tab-content-item" id="tab2-content">
-            <h2>Tab 2 Content</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              nesciunt, ducimus sapiente dolores eligendi, iusto impedit amet
-              ipsa, incidunt eaque nostrum a aliquid assumenda libero!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              nesciunt, ducimus sapiente dolores eligendi, iusto impedit amet
-              ipsa, incidunt eaque nostrum a aliquid assumenda libero!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              nesciunt, ducimus sapiente dolores eligendi, iusto impedit amet
-              ipsa, incidunt eaque nostrum a aliquid assumenda libero!
-            </p>
+            <CreativeProjects />
           </div>
           <div className="tab-content-item" id="tab3-content">
-            <h2>Tab 3 Content</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              nesciunt, ducimus sapiente dolores eligendi, iusto impedit amet
-              ipsa, incidunt eaque nostrum a aliquid assumenda libero!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              nesciunt, ducimus sapiente dolores eligendi, iusto impedit amet
-              ipsa, incidunt eaque nostrum a aliquid assumenda libero!
-            </p>
+            <CreativeProjects />
           </div>
         </div>
       </div>
