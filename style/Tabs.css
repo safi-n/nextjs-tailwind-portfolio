@@ -55,17 +55,31 @@
 }
 
 .tab-content {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .tab-content-item {
-  border: 1px solid #ccc;
   display: none;
+  padding: 0.3em;
   max-width: 100%;
-  margin-top: -1px;
   padding-inline: 20px;
 }
 
 .tab-content-item.active {
   display: block;
+}
+
+
+
+.creative-projects__lists{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.creative-projects__list--item > img {
+  width: 20em;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid rgb(234, 234, 234);
 }

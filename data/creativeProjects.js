@@ -6,57 +6,57 @@ const creativeProjects = [
   {
     id: uuid(),
     img: logo1,
-    title: '',
+    title: 'logo',
     tags: ''
   },
   {
     id: uuid(),
     img: logo2,
-    title: '',
+    title: 'logo',
     tags: ''
   },
   {
     id: uuid(),
     img: logo3,
-    title: '',
+    title: 'logo',
     tags: ''
   },
   // posters area
   {
     id: uuid(),
     img: logo3,
-    title: '',
+    title: 'Poster',
     tags: ''
   },
   {
     id: uuid(),
     img: logo3,
-    title: '',
+    title: 'Poster',
     tags: ''
   },
   {
     id: uuid(),
     img: logo3,
-    title: '',
+    title: 'Poster',
     tags: ''
   },
   // Brand ID
   {
     id: uuid(),
     img: logo3,
-    title: '',
+    title: 'Brand ID',
     tags: ''
   },
   {
     id: uuid(),
     img: logo3,
-    title: '',
+    title: 'Brand ID',
     tags: ''
   },
   {
     id: uuid(),
     img: logo3,
-    title: '',
+    title: 'Brand ID',
     tags: ''
   },
 ]

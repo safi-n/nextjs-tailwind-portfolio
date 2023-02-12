@@ -1,4 +1,6 @@
 "use client";
+import creativeProjects from "@/data/creativeProjects";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 const ProjectsTabs = () => {
   const [_document, set_document] = useState(null);
@@ -48,12 +50,23 @@ const ProjectsTabs = () => {
         {/* Content Tabs */}
         <div className="tab-content">
           <div className="tab-content-item active" id="tab1-content">
-            <h2>Tab 1 Content</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              nesciunt, ducimus sapiente dolores eligendi, iusto impedit amet
-              ipsa, incidunt eaque nostrum a aliquid assumenda libero!
-            </p>
+            <ul className="creative-projects__lists">
+              {creativeProjects.map((project) => {
+                return (
+                  <li
+                    className="creative-projects__list--item"
+                    key={project.id}
+                  >
+                    <Image
+                      src={project.img}
+                      width='auto'
+                      height='auto'
+                      alt={project.title}
+                    />
+                  </li>
+                );
+              })}
+            </ul>
           </div>
           <div className="tab-content-item" id="tab2-content">
             <h2>Tab 2 Content</h2>
