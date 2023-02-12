@@ -1,34 +1,42 @@
-import React from "react";
-
+"use client"
+import { useEffect, useState } from "react";
 const ProjectsTabs = () => {
-  if(process.browser) {
-    const tabs = Document.querySelectorAll(".tab");
-    const tabContents = Document.querySelectorAll(".tab-content-item");
+  const [_document, set_document] = useState(null);
+
+  useEffect(() => {
+    set_document(document);
+  }, []);
+  
+  if (typeof window !== "undefined") {
+    const tabs = document.querySelectorAll(".tab");
+    const tabContents = document.querySelectorAll(".tab-content-item");
     tabs.forEach((tab) => {
       tab.addEventListener("click", function () {
         // remove active class from all tabs and tab content
         tabs.forEach((tab) => tab.classList.remove("active"));
         tabContents.forEach((content) => content.classList.remove("active"));
-  
+
         // add active class to current tab and its corresponding tab content
         this.classList.add("active");
-        document.getElementById(this.dataset.tabContent).classList.add("active");
+        document
+          .getElementById(this.dataset.tabContent)
+          .classList.add("active");
       });
     });
   }
 
-
   return (
     <div className="bg-white">
-      <div className="wrapper">
-        <div className="tabs">
-          <div className="tab active" data-tab-content="tab1-content">
+      <div className="project-tabs__container--main">
+        {/* Tabs buttons */}
+        <div className="project-tabs__tabs">
+          <div className="project-tabs__tab active" data-tab-content="tab1-content">
             Tab 1
           </div>
-          <div className="tab" data-tab-content="tab2-content">
+          <div className="project-tabs__tab" data-tab-content="tab2-content">
             Tab 2
           </div>
-          <div className="tab" data-tab-content="tab3-content">
+          <div className="project-tabs__tab" data-tab-content="tab3-content">
             Tab 3
           </div>
         </div>

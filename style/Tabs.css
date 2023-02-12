@@ -1,15 +1,14 @@
-.wrapper {
-  max-width: 90vw;
-  min-width: 275px;
-  margin: 10vh auto;
+.project-tabs__container--main {
+  width: 80vw;
+  margin: auto;
 }
-.tabs {
+.project-tabs__tabs {
   display: flex;
   border: 1px solid #ccc;
   border-bottom: none;
 }
 
-.tab {
+.project-tabs__tab {
   padding: 12px 20px;
   cursor: pointer;
   border-right: 1px solid #ccc;
