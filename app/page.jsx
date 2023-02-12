@@ -4,6 +4,7 @@ import MySkills from "@/components/TechSkills";
 import Speciality from "@/components/Speciality";
 import TechProjects from "@/components/Techprojects";
 
+
 export default function Home() {
   return (
     <main>

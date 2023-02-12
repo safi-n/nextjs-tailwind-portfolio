@@ -4,7 +4,6 @@ const TechProjects = () => {
   return (
     <div className="bg-white flex-col">
       <div className="tech-projects__container--main">
-        <div className="half__container bg-white">
           <p className="l-header font-bold mb-12">Projects</p>
           <ul className="tech-projects__lists--container gap-9">
             {techProjects.map((project) => {
@@ -25,7 +24,6 @@ const TechProjects = () => {
               );
             })}
           </ul>
-        </div>
       </div>
       <div className="tech-projects__scroll--button">
         <button>right</button>

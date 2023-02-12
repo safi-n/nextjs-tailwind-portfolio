@@ -1,3 +1,12 @@
+.tech-projects__container--main{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  column-gap: 5em;
+  overflow-x: hidden;
+  padding-left: 11em;
+  align-items: center;
+}
 .company-brand > img {
   width: 3em;
   height: 100%;
@@ -6,11 +15,11 @@
   margin-right: 10px;
 }
 .tech-projects__lists--container{
-  width: 150rem;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 36%;
   overflow-x: auto;
+  position: relative;
 }
 .tech-projects__scroll--button{
   position: inherit;

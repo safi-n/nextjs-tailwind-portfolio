@@ -58,7 +58,7 @@
   height: 8rem;
 }
 
-.half__container {
+/* .half__container {
   position: absolute;
   display: flex;
   align-items: center;
@@ -66,7 +66,7 @@
   left: 200px;
   width: 86vw;
   overflow-x: auto;
-}
+} */
 
 @media (max-width: 800px) {
   .container {

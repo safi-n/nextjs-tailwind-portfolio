@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+const path = require('path')
 const nextConfig = {
   experimental: {
     appDir: true,
@@ -6,6 +7,9 @@ const nextConfig = {
   images: {
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'style')],
   },
 }
 
