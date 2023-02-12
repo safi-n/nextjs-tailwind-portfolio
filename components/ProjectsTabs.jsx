@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useEffect, useState } from "react";
 const ProjectsTabs = () => {
   const [_document, set_document] = useState(null);
@@ -6,9 +6,9 @@ const ProjectsTabs = () => {
   useEffect(() => {
     set_document(document);
   }, []);
-  
+
   if (typeof window !== "undefined") {
-    const tabs = document.querySelectorAll(".tab");
+    const tabs = document.querySelectorAll(".project-tabs__tab");
     const tabContents = document.querySelectorAll(".tab-content-item");
     tabs.forEach((tab) => {
       tab.addEventListener("click", function () {
@@ -30,16 +30,22 @@ const ProjectsTabs = () => {
       <div className="project-tabs__container--main">
         {/* Tabs buttons */}
         <div className="project-tabs__tabs">
-          <div className="project-tabs__tab active" data-tab-content="tab1-content">
-            Tab 1
-          </div>
-          <div className="project-tabs__tab" data-tab-content="tab2-content">
-            Tab 2
-          </div>
-          <div className="project-tabs__tab" data-tab-content="tab3-content">
-            Tab 3
+          <div className="project-tabs__tabs--style-container">
+            <div
+              className="project-tabs__tab active"
+              data-tab-content="tab1-content"
+            >
+              Graphic & Motion Design
+            </div>
+            <div className="project-tabs__tab" data-tab-content="tab2-content">
+              UI/UX Design
+            </div>
+            <div className="project-tabs__tab" data-tab-content="tab3-content">
+              Photos
+            </div>
           </div>
         </div>
+        {/* Content Tabs */}
         <div className="tab-content">
           <div className="tab-content-item active" id="tab1-content">
             <h2>Tab 1 Content</h2>
