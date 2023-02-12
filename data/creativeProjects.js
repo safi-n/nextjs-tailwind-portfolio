@@ -2,6 +2,9 @@ import {v4 as uuid} from 'uuid'
 import logo1 from '../public/assets/imgs/MarkYourHome.jpg'
 import logo2 from '../public/assets/imgs/Meteros.jpg'
 import logo3 from '../public/assets/imgs/TetraClick-05.jpg'
+import poster1 from '../public/assets/imgs/Poster-RealEstate__MYH.jpg'
+import poster2 from '../public/assets/imgs/Poster-digitalMarketing_ad.jpg'
+import poster3 from '../public/assets/imgs/Poster-digitalMarketing_ad.jpg'
 const creativeProjects = [
   {
     id: uuid(),
@@ -24,19 +27,19 @@ const creativeProjects = [
   // posters area
   {
     id: uuid(),
-    img: logo3,
+    img: poster1,
     title: 'Poster',
     tags: ''
   },
   {
     id: uuid(),
-    img: logo3,
+    img: poster2,
     title: 'Poster',
     tags: ''
   },
   {
     id: uuid(),
-    img: logo3,
+    img: poster3,
     title: 'Poster',
     tags: ''
   },

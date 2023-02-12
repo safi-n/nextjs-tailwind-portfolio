@@ -17,7 +17,7 @@
   padding-left: 0.5em;
   padding-right: 0.5em;
   border-radius: 40px;
-  background-color: #f4f4f4;
+  background-color: rgb(245, 245, 245);
 }
 
 .project-tabs__tab {
@@ -60,7 +60,7 @@
 
 .tab-content-item {
   display: none;
-  padding: 0.3em;
+  padding: 0.1em;
   max-width: 100%;
   padding-inline: 20px;
 }
@@ -72,6 +72,10 @@
 
 
 .creative-projects__lists{
+  background-color: rgb(245, 245, 245);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  justify-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
@@ -81,5 +85,5 @@
   width: 20em;
   height: 100%;
   object-fit: cover;
-  border: 1px solid rgb(234, 234, 234);
+  border: 1px solid rgb(236, 236, 236);
 }
