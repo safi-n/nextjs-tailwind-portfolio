@@ -26,7 +26,8 @@ const TechProjects = () => {
           </ul>
       </div>
       <div className="tech-projects__scroll--button">
-        <button>right</button>
+        <button>more projects --)
+        </button>
       </div>
     </div>
   );

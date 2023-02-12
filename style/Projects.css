@@ -22,9 +22,10 @@
   position: relative;
 }
 .tech-projects__scroll--button{
-  position: inherit;
-  display: inline-flex;
-  border: 1px solid red;
+  padding-top: 2em;
+  width: 100vw;
+  overflow-x: hidden;
+  padding-left: 34%;
 }
 .project-item{
   cursor: pointer;
