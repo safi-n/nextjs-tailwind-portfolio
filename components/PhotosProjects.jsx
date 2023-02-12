@@ -11,9 +11,9 @@ const PhotosProjects = () => {
                     key={project.id}
                   >
                     <Image
-                      src={project.img}
-                      width='20'
-                      height='20'
+                      src={`https"//unsplash.com/photos/${project.url}`}
+                      width='200'
+                      height='200'
                       alt={project.title}
                       priority
                     />
