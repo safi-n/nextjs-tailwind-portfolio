@@ -6,7 +6,6 @@
   overflow-x: hidden;
   padding-left: 11em;
   align-items: center;
-  border: 1px solid red;
 }
 .company-brand > img {
   width: 3em;
@@ -28,7 +27,6 @@
   width: 100vw;
   overflow-x: hidden;
   padding-left: 34%;
-  border: 1px solid yellow;
 }
 .project-item{
   cursor: pointer;

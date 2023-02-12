@@ -2,7 +2,7 @@ import techProjects from "@/data/techProjects";
 import Image from "next/image";
 const TechProjects = () => {
   return (
-    <div className="bg-white flex-col border-2">
+    <div className="bg-white flex-col">
       <div className="tech-projects__container--main">
         <p className="l-header font-bold mb-12">Projects</p>
         <ul className="tech-projects__lists--container gap-9">
