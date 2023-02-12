@@ -75,6 +75,7 @@
   background-color: rgb(245, 245, 245);
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-inline: 1em;
   justify-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

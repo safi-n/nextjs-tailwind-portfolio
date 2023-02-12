@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import CreativeProjects from "./CreativeProjects";
+import PhotosProjects from "./PhotosProjects";
 const ProjectsTabs = () => {
   const [_document, set_document] = useState(null);
 
@@ -52,11 +53,13 @@ const ProjectsTabs = () => {
           <div className="tab-content-item active" id="tab1-content">
             <CreativeProjects />
           </div>
+          {/* UI / UX project */}
           <div className="tab-content-item" id="tab2-content">
             <CreativeProjects />
           </div>
+          {/* Photos projects */}
           <div className="tab-content-item" id="tab3-content">
-            <CreativeProjects />
+            <PhotosProjects/>
           </div>
         </div>
       </div>

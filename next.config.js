@@ -8,12 +8,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**",
+        hostname: "unsplash.com",
         port: "",
-        pathname: "**",
+        pathname: "/photos/**",
       },
     ],
-    formats: ["image/webp"],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },

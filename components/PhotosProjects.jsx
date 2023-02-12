@@ -1,10 +1,10 @@
-import creativeProjects from "@/data/creativeProjects";
+import photosProjects from "@/data/photosProjects";
 import Image from "next/image";
 
 const PhotosProjects = () => {
   return (
     <ul className="creative-projects__lists">
-              {creativeProjects.map((project) => {
+              {photosProjects.map((project) => {
                 return (
                   <li
                     className="creative-projects__list--item"
@@ -12,8 +12,8 @@ const PhotosProjects = () => {
                   >
                     <Image
                       src={project.img}
-                      width='auto'
-                      height='auto'
+                      width='20'
+                      height='20'
                       alt={project.title}
                       priority
                     />

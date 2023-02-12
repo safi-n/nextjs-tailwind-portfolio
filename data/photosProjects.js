@@ -55,3 +55,5 @@ const photosProject = [
     tag: 'nature'
   },
 ]
+
+export default photosProject
