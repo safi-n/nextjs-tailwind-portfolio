@@ -15,6 +15,7 @@ const CreativeProjects = () => {
                       width='auto'
                       height='auto'
                       alt={project.title}
+                      priority
                     />
                   </li>
                 );
