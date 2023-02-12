@@ -1,7 +1,7 @@
 import creativeProjects from "@/data/creativeProjects";
 import Image from "next/image";
 
-const CreativeProjects = () => {
+const PhotosProjects = () => {
   return (
     <ul className="creative-projects__lists">
               {creativeProjects.map((project) => {
@@ -24,4 +24,4 @@ const CreativeProjects = () => {
   )
 }
 
-export default CreativeProjects
+export default PhotosProjects

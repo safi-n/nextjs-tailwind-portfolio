@@ -58,7 +58,7 @@ const creativeProjects = [
   },
   {
     id: uuid(),
-    img: 'https://unsplash.com/photos/P-yzuyWFEIk',
+    img: poster2,
     title: 'Brand ID',
     tags: ''
   },

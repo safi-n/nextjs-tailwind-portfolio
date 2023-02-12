@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const path = require('path')
+const path = require("path");
 const nextConfig = {
   experimental: {
     appDir: true,
@@ -7,19 +7,20 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'unsplash.com',
-        pathname: '/photos/**',
+        protocol: "https",
+        hostname: "**",
+        port: "",
+        pathname: "**",
       },
     ],
-    domain: ['source.unsplash.com'],
+    formats: ["image/webp"],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   sassOptions: {
-    includePaths: [path.join(__dirname, 'style')],
+    includePaths: [path.join(__dirname, "style")],
   },
-}
+};
 
 // to Add Webpack try this one and add webpack to model.export = nextconfig, !webpack
 // const webpack = {
@@ -32,7 +33,7 @@ const nextConfig = {
 //       },
 //     ],
 //   },
-  
+
 // }
 
-module.exports = nextConfig
+module.exports = nextConfig;
