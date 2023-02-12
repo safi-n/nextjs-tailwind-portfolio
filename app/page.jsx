@@ -3,6 +3,7 @@ import HeroBanner from "@/components/HeroBanner";
 import MySkills from "@/components/TechSkills";
 import Speciality from "@/components/Speciality";
 import TechProjects from "@/components/Techprojects";
+import ProjectsTabs from "@/components/ProjectsTabs";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <div className="space-bar bg-white"/>
       <TechProjects/>
       <div className="space-bar bg-white"/>
+      <ProjectsTabs/>
       <div className="space-bar bg-white"/>
     </main>
   )
