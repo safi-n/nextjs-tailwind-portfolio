@@ -34,7 +34,7 @@
   border-bottom: none;
   border-right: none;
   border-left: none;
-  background: -webkit-linear-gradient(left, #9b078a,  #5339ea);
+  background: -webkit-linear-gradient(left, #6f44fe,  #d23282);
   color: white;
 }
 
@@ -72,7 +72,7 @@
 
 
 .creative-projects__lists{
-  background-color: rgb(245, 245, 245);
+  background-color: rgba(245, 245, 245, 0.273);
   padding-top: 1em;
   padding-bottom: 1em;
   padding-inline: 1em;
