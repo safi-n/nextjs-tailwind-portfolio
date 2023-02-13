@@ -59,6 +59,9 @@
 .space-bar {
   height: 8rem;
 }
+.space-bar.black{
+  background-color: rgb(9, 9, 9);
+}
 
 /* .half__container {
   position: absolute;

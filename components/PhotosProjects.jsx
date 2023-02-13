@@ -11,7 +11,6 @@ const PhotosProjects = () => {
       <ul className="creative-projects__lists">
         {photosProjects.map((project) => {
           return (
-            <>
               <li className="creative-projects__list--item" key={project.id}>
                 <Image
                   src={project.url}
@@ -22,7 +21,6 @@ const PhotosProjects = () => {
                   onClick={() => setSelectedImage(project)}
                 />
               </li>
-            </>
           );
         })}
       </ul>

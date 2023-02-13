@@ -13,9 +13,9 @@ export default function Home() {
       <div className="space-bar bg-white"/>
       <Speciality/>
       <div className="space-bar bg-white"/>
-      <div className="space-bar bg-black"/>
+      <div className="space-bar black"/>
       <ExperinceCode/>
-      <div className="space-bar bg-black"/>
+      <div className="space-bar black"/>
       <div className="space-bar bg-white"/>
       <MySkills/>
       <div className="space-bar bg-white"/>
