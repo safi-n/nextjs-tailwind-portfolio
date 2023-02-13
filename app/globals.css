@@ -9,6 +9,7 @@
 @import url("../style/Speciality.css");
 @import url("../style/Projects.css");
 @import url('../style/Tabs.css');
+@import url('../style/pop-up.css');
 
 :root {
   background-color: rgb(9, 9, 9);
