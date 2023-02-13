@@ -1,5 +1,6 @@
 /* Slider style */
 .slider-container{
+  z-index: 75;
   position: fixed;
   top: 35%;
   background-color: white;

@@ -1,5 +1,6 @@
 import {v4 as uuid} from 'uuid'
 import logo from '../public/assets/imgs/MarkYourHome.jpg'
+import logo1 from '../public/assets/imgs/Poster-digitalMarketing_ad.jpg'
 const photosProject = [
   {
     id: uuid(),
@@ -27,7 +28,7 @@ const photosProject = [
   },
   {
     id: uuid(),
-    url: logo,
+    url: logo1,
     title: 'nature picture',
     tag: 'nature'
   },

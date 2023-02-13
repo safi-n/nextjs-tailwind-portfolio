@@ -8,9 +8,12 @@
   background-color: rgba(0, 0, 0, 0.092);
 }
 .photo-project__pop-up--image-container{
-  display: flex;
-  margin-top: 10em;
+  display: inline-block;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 25%;
   justify-content: center;
+  padding: 1em;
 }
 .photo-project__pop-up--image-container > img {
   width: 40em;

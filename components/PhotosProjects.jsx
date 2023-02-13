@@ -26,12 +26,16 @@ const PhotosProjects = () => {
         })}
       </ul>
       {selectedImage && (
-        <div className="photo-project__pop-up-container" onClick={() => setSelectedImage(null)}>
+        <div
+          className="photo-project__pop-up-container"
+          onClick={() => setSelectedImage(null)}
+        >
           <div className="photo-project__pop-up--image-container">
+            <span>X</span>
             <Image
               src={selectedImage.url}
-              width="600"
-              height="600"
+              width="auto"
+              height="auto"
               alt="pop-image"
               priority
             />
