@@ -5,14 +5,15 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "unsplash.com",
-        port: "",
-        pathname: "/photos/**",
-      },
-    ],
+    // remotePatterns: [
+    //   {
+    //     protocol: "https",
+    //     hostname: "source.unsplash.com",
+    //     port: "",
+    //     pathname: "/photos/**",
+    //   },
+    // ],
+    domains: ['source.unsplash.com'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
