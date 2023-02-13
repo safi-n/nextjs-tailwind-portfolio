@@ -38,9 +38,15 @@
 
 @media (max-width: 800px) {
   .tech-projects__lists--container{
-    grid-auto-flow: column;
-    grid-auto-columns: auto;
-    grid-auto-columns: 15%;
-    overflow-x: auto;
+    grid-auto-flow: row;
+    /* grid-auto-columns: auto;
+    grid-auto-columns: 15%; */
+    overflow-x: hidden;
+  }
+  .tech-projects__container--main{
+    flex-direction: column;
+    column-gap: 0;
+    padding-left: 0;
+    justify-content: center;
   }
 }

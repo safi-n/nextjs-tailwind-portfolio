@@ -19,7 +19,7 @@ const HeroBanner = () => {
           return clearInterval(interval)
         }
         itteration += 1 / 3
-      }, 60)
+      }, 40)
     }
   },[])
   return (
