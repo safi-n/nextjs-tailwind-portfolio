@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import CreativeProjects from "./CreativeProjects";
 import PhotosProjects from "./PhotosProjects";
+import ProjectsUiUx from "./ProjectsUiUx";
 const ProjectsTabs = () => {
   const [_document, set_document] = useState(null);
 
@@ -55,7 +56,7 @@ const ProjectsTabs = () => {
           </div>
           {/* UI / UX project */}
           <div className="tab-content-item" id="tab2-content">
-            <CreativeProjects />
+            <ProjectsUiUx/>
           </div>
           {/* Photos projects */}
           <div className="tab-content-item" id="tab3-content">
