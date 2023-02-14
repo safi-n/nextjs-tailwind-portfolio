@@ -40,7 +40,7 @@ const ProjectsUiUx = () => {
             </span>
             <div className="photo-project__pop-up--image-container">
               <Image
-                src={selectedImage.url}
+                src={selectedImage.img}
                 width="auto"
                 height="auto"
                 alt="pop-image"
