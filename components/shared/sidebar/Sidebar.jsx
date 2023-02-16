@@ -8,7 +8,7 @@ const Sidebar = () => {
             return (
               <li key={icon.id} className="">
                 <div className="icon-side">
-                  <a href={icon.link} target="_blank" className="side-icon-link">
+                  <a href={icon.link} target="_blank" className="side-icon-link" rel="noreferrer">
                     <Image
                       src={icon.img}
                       alt={icon.label}
