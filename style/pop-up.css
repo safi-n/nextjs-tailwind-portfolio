@@ -8,17 +8,17 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.429);
 }
 .photo-project__pop-up--image-container {
-  background-color: rgba(255, 255, 255, 0.293);
+  background-color: rgba(255, 255, 255, 0.233);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   padding: 0.5em;
 }
 .photo-project__pop-up--image-container > img {
   border: 2px solid white;
-  width: 33em;
+  width: 40em;
   height: 100%;
   object-fit: contain;
 }
