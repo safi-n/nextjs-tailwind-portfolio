@@ -11,16 +11,16 @@ const PhotosProjects = () => {
       <ul className="creative-projects__lists">
         {photosProjects.map((project) => {
           return (
-              <li className="creative-projects__list--item" key={project.id}>
-                <Image
-                  src={project.url}
-                  width="200"
-                  height="200"
-                  alt={project.title}
-                  priority
-                  onClick={() => setSelectedImage(project)}
-                />
-              </li>
+            <li className="creative-projects__list--item" key={project.id}>
+              <Image
+                src={project.url}
+                width="200"
+                height="200"
+                alt={project.title}
+                priority
+                onClick={() => setSelectedImage(project)}
+              />
+            </li>
           );
         })}
       </ul>

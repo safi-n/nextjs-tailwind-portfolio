@@ -13,6 +13,7 @@
 
 :root {
   background-color: rgb(9, 9, 9);
+  overflow-x: hidden;
 }
 .container {
   width: min(75vw);

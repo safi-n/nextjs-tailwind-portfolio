@@ -14,7 +14,7 @@ const ProjectsTabs = () => {
     const tabs = document.querySelectorAll(".project-tabs__tab");
     const tabContents = document.querySelectorAll(".tab-content-item");
     tabs.forEach((tab) => {
-      tab.addEventListener("tap", function () {
+      tab.addEventListener("click", function () {
         // remove active class from all tabs and tab content
         tabs.forEach((tab) => tab.classList.remove("active"));
         tabContents.forEach((content) => content.classList.remove("active"));
