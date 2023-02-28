@@ -1,6 +1,13 @@
 import {v4 as uuid} from 'uuid'
-import IMG1 from '../public/assets/imgs/IMG_17.jpg'
-import logo1 from '../public/assets/imgs/Poster-RealEstate__MYH.jpg'
+import IMG1 from '../public/assets/imgs/IMG_01.jpg'
+import IMG2 from '../public/assets/imgs/IMG_02.jpg'
+import IMG3 from '../public/assets/imgs/IMG_03.jpg'
+import IMG4 from '../public/assets/imgs/IMG_04.jpg'
+import IMG5 from '../public/assets/imgs/IMG_05.jpg'
+import IMG6 from '../public/assets/imgs/IMG_06.jpg'
+import IMG7 from '../public/assets/imgs/IMG_06.jpg'
+import IMG8 from '../public/assets/imgs/IMG_01.jpg'
+import IMG9 from '../public/assets/imgs/IMG_02.jpg'
 const photosProject = [
   {
     id: uuid(),
@@ -10,49 +17,49 @@ const photosProject = [
   },
   {
     id: uuid(),
-    url: IMG1,
+    url: IMG2,
     title: 'nature picture',
     tag: 'nature'
   },
   {
     id: uuid(),
-    url: IMG1,
+    url: IMG3,
     title: 'nature picture',
     tag: 'nature'
   },
   {
     id: uuid(),
-    url: IMG1,
+    url: IMG4,
     title: 'nature picture',
     tag: 'nature'
   },
   {
     id: uuid(),
-    url: logo1,
+    url: IMG5,
     title: 'nature picture',
     tag: 'nature'
   },
   {
     id: uuid(),
-    url: IMG1,
+    url: IMG6,
     title: 'nature picture',
     tag: 'nature'
   },
   {
     id: uuid(),
-    url: IMG1,
+    url: IMG7,
     title: 'nature picture',
     tag: 'nature'
   },
   {
     id: uuid(),
-    url: IMG1,
+    url: IMG8,
     title: 'nature picture',
     tag: 'nature'
   },
   {
     id: uuid(),
-    url: IMG1,
+    url: IMG9,
     title: 'nature picture',
     tag: 'nature'
   },
