@@ -4,7 +4,7 @@ const ExperinceCode = () => {
   return (
     <div className='w-[60vw] mx-auto text-white'>
       <div className="experince-title">
-        <p className="l-header"><span id='speciality-font'>8+</span>YEARS OF <br /> EXPERIENCE</p>
+        <p className="l-header"><span id='speciality-font'>5+</span>YEARS OF <br /> EXPERIENCE</p>
       </div>
       <div className="flex experience-content justify-between gap-8 mt-6 max-[800px]:flex-col">
         <p className='w-[30rem] max-[800px]:w-[20rem]'>An experienced multimedia designer with 8 years in the field, who has also developed frontend skills with 3 years of experience. Has a background in creating various multimedia designs and has expertise in combining design and technology to build engaging user experiences.</p>
