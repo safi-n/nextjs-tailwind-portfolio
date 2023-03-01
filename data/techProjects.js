@@ -1,5 +1,6 @@
 import {v4 as uuid} from 'uuid'
 import logo_fintelion from '../public/assets/imgs/logo_fintelion.png'
+import logo_sbg from '../public/assets/imgs/SBGlogo.png'
 import logo from '../public/assets/png/JavascriptLogo.png'
 
 const techProjects = [
@@ -12,9 +13,9 @@ const techProjects = [
   },
   {
     id: uuid(),
-    logo: logo,
+    logo: logo_sbg,
     company: 'SBGroup',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur rerum ad mollitia eius molestiae accusamus nam est natus magnam.'
+    description: 'SBGroup has built a unique status among its valued clients. Our expert and capable staff provide professional services in consultancy, survey & design, procurement, logistics.'
   },
   {
     id: uuid(),
