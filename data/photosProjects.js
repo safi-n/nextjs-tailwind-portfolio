@@ -5,9 +5,9 @@ import IMG3 from '../public/assets/imgs/IMG_03.jpg'
 import IMG4 from '../public/assets/imgs/IMG_04.jpg'
 import IMG5 from '../public/assets/imgs/IMG_05.jpg'
 import IMG6 from '../public/assets/imgs/IMG_06.jpg'
-import IMG7 from '../public/assets/imgs/IMG_06.jpg'
-import IMG8 from '../public/assets/imgs/IMG_01.jpg'
-import IMG9 from '../public/assets/imgs/IMG_02.jpg'
+import IMG7 from '../public/assets/imgs/IMG_07.jpg'
+import IMG8 from '../public/assets/imgs/IMG_08.jpg'
+import IMG9 from '../public/assets/imgs/IMG_09.jpg'
 const photosProject = [
   {
     id: uuid(),
