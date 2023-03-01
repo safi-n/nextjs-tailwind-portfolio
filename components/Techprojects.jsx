@@ -9,8 +9,10 @@ const TechProjects = () => {
           {techProjects.map((project) => {
             return (
               <li key={project.id} className="p-4 py-7 project-item">
+                
                 <p className="font-light mb-5">{project.description}</p>
                 <div className="company-brand flex items-center">
+                <a href={project.link} target="_blank">
                   <Image
                     src={project.logo}
                     alt={project.company}
@@ -18,6 +20,7 @@ const TechProjects = () => {
                     height="auto"
                     priority
                   />
+                  </a>
                   <p>{project.company}</p>
                 </div>
               </li>

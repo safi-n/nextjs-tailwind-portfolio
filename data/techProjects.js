@@ -1,12 +1,14 @@
 import {v4 as uuid} from 'uuid'
+import logo_fintelion from '../public/assets/imgs/logo_fintelion.png'
 import logo from '../public/assets/png/JavascriptLogo.png'
 
 const techProjects = [
   {
     id: uuid(),
-    logo: logo,
+    logo: logo_fintelion,
     company: 'Fintelion',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur rerum ad mollitia eius molestiae accusamus nam est natus magnam.'
+    description: 'Fintelion is a Turkey based company aiming to invest in new ideas and startups. We diversify our investment in the areas of real estate, health, tourism, agriculture and technology.',
+    link: 'https://fintelion.com.tr'
   },
   {
     id: uuid(),

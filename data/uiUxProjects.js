@@ -3,6 +3,7 @@ import template1 from '../public/assets/imgs/Poster-Clvb-app.jpg'
 import template2 from '../public/assets/imgs/Poster-Eduactive.jpg'
 import template3 from '../public/assets/imgs/UIUX_01.png'
 import template4 from '../public/assets/imgs/UIUX_02.png'
+import template5 from '../public/assets/imgs/UIUX_03.jpg'
 const uiUxProjects = [
   {
     id: uuid(),
@@ -34,7 +35,7 @@ const uiUxProjects = [
   },
   {
     id: uuid(),
-    img: template2,
+    img: template5,
     title: 'template',
     tags: '',
     link: ''
