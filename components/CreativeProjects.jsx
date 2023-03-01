@@ -16,6 +16,7 @@ const CreativeProjects = () => {
                       height='auto'
                       alt={project.title}
                       priority
+                      className="bg-contain"
                     />
                   </li>
                 );
