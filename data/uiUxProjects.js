@@ -1,7 +1,8 @@
 import {v4 as uuid} from 'uuid'
 import template1 from '../public/assets/imgs/Poster-Clvb-app.jpg'
 import template2 from '../public/assets/imgs/Poster-Eduactive.jpg'
-import template3 from '../public/assets/imgs/Poster-Clvb-app.jpg'
+import template3 from '../public/assets/imgs/UIUX_01.png'
+import template4 from '../public/assets/imgs/UIUX_02.png'
 const uiUxProjects = [
   {
     id: uuid(),
@@ -26,7 +27,7 @@ const uiUxProjects = [
   },
   {
     id: uuid(),
-    img: template1,
+    img: template4,
     title: 'template',
     tags: '',
     link: ''
@@ -45,27 +46,6 @@ const uiUxProjects = [
     tags: '',
     link: ''
   },
-  {
-    id: uuid(),
-    img: template3,
-    title: 'Brand ID',
-    tags: '',
-    link: ''
-  },
-  {
-    id: uuid(),
-    img: template3,
-    title: 'Brand ID',
-    tags: '',
-    link: ''
-  },
-  {
-    id: uuid(),
-    img: template2,
-    title: 'Brand ID',
-    tags: '',
-    link: ''
-  },
-]
+  ]
 
 export default uiUxProjects

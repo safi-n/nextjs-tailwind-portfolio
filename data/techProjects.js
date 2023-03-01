@@ -18,7 +18,8 @@ const techProjects = [
     id: uuid(),
     logo: logo,
     company: 'Ras soul',
-    description: "une maison d'édition numérique autodidacte et indépendante basée à Lyon, en France, qui cherche à fournir un contenu exclusif et de qualité à notre communauté de lecteurs dans le monde entier."
+    description: "une maison d'édition numérique autodidacte et indépendante basée à Lyon, en France, qui cherche à fournir un contenu exclusif et de qualité à notre communauté de lecteurs dans le monde entier.",
+    link: "https://rassoul.fr/accueil-2/"
   },
   {
     id: uuid(),
