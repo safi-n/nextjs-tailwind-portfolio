@@ -1,4 +1,6 @@
 import techProjects from "@/data/techProjects";
+import arrow_L from "../public/assets/png/icon_arrow-01.png";
+import arrow_R from "../public/assets/png/icon_arrow-02.png";
 import Image from "next/image";
 const TechProjects = () => {
   return (
@@ -28,8 +30,12 @@ const TechProjects = () => {
         </ul>
       </div>
       <div className="tech-projects__scroll--button">
-        <button>{'<'}</button>
-        <button>{'>'}</button>
+        <button>
+          <Image src={arrow_L} height="auto" width="auto" alt="arrow" />
+        </button>
+        <button>
+          <Image src={arrow_R} height="auto" width="auto" alt="arrow"/>
+        </button>
       </div>
     </div>
   );

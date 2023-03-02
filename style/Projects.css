@@ -23,13 +23,17 @@
 }
 .tech-projects__scroll--button{
   display: flex;
-  border: 1px red solid;
+  column-gap: 1.4em;
   color: rgb(83, 33, 33);
   width: 100vw;
   justify-content: flex-end;
-  padding-right: 30em;
-  padding: 2em;
+  font-weight: 300;
   overflow-x: hidden;
+}
+
+.tech-projects__scroll--button > img {
+  width: 1em;
+  height: 100%;
 }
 .project-item{
   cursor: pointer;
