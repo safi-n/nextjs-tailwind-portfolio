@@ -34,7 +34,7 @@ const TechProjects = () => {
           <Image src={arrow_L} height="auto" width="auto" alt="arrow" />
         </button>
         <button>
-          <Image src={arrow_R} height="auto" width="auto" alt="arrow"/>
+          <Image src={arrow_R} height="auto" width="auto" alt="arrow" />
         </button>
       </div>
     </div>
