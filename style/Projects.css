@@ -7,7 +7,7 @@
   padding-left: 11em;
   align-items: center;
 }
-.company-brand > a > img {
+.company-brand >  img {
   width: 3em;
   height: 100%;
   object-fit: contain;

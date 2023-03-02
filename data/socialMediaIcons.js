@@ -14,19 +14,19 @@ const socialMediaIcons = [
     id: uuid(),
     label: 'Behance',
     img: BeIcon,
-    link: 'https://github.com/safi-n'
+    link: 'https://www.behance.net/safinoorzai'
   },
   {
     id: uuid(),
     label: 'LinkedIn',
     img: LInIcon,
-    link: 'https://github.com/safi-n'
+    link: 'https://www.linkedin.com/in/safinoorzai'
   },
   {
     id: uuid(),
     label: 'Un Splash',
     img: UnSIcon,
-    link: 'https://github.com/safi-n'
+    link: 'https://unsplash.com/@safi_nurzai'
   },
 ];
 

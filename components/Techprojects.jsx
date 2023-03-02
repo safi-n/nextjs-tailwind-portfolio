@@ -9,20 +9,19 @@ const TechProjects = () => {
           {techProjects.map((project) => {
             return (
               <li key={project.id} className="p-4 py-7 project-item">
-                
-                <p className="font-light mb-5">{project.description}</p>
-                <div className="company-brand flex items-center">
                 <a href={project.link} target="_blank">
-                  <Image
-                    src={project.logo}
-                    alt={project.company}
-                    width="auto"
-                    height="auto"
-                    priority
-                  />
-                  </a>
-                  <p>{project.company}</p>
-                </div>
+                  <p className="font-light mb-5">{project.description}</p>
+                  <div className="company-brand flex items-center">
+                    <Image
+                      src={project.logo}
+                      alt={project.company}
+                      width="auto"
+                      height="auto"
+                      priority
+                    />
+                    <p>{project.company}</p>
+                  </div>
+                </a>
               </li>
             );
           })}

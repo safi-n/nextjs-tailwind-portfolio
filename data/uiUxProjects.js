@@ -40,13 +40,13 @@ const uiUxProjects = [
     tags: '',
     link: ''
   },
-  {
-    id: uuid(),
-    img: template3,
-    title: 'template',
-    tags: '',
-    link: ''
-  },
+  // {
+  //   id: uuid(),
+  //   img: template3,
+  //   title: 'template',
+  //   tags: '',
+  //   link: ''
+  // },
   ]
 
 export default uiUxProjects

@@ -3,6 +3,7 @@ import logo_scriptsun from '../public/assets/png/logo_scriptsun.png'
 import logo_fintelion from '../public/assets/imgs/logo_fintelion.png'
 import logo_sbg from '../public/assets/imgs/SBGlogo.png'
 import logo_rassoul from '../public/assets/imgs/logo_rassoul.jpg'
+import logo_envato from '../public/assets/png/envato_logo.png'
 import logo from '../public/assets/png/JavascriptLogo.png'
 
 const techProjects = [
@@ -29,28 +30,24 @@ const techProjects = [
   },
   {
     id: uuid(),
+    logo: logo_envato,
+    company: 'DoughzLight',
+    description: 'Envato is a world-leading online community for creative assets, tools and talent. Millions of people around the world visit Envato to buy and sell creative assets, use smart design templates or even hire freelancers.',
+    link: 'https://codecanyon.net/user/doughouzlight'
+  },
+  {
+    id: uuid(),
+    logo: logo_envato,
+    company: 'DoughDark',
+    description: 'Envato is a world-leading online community for creative assets, tools and talent. Millions of people around the world visit Envato to buy and sell creative assets, use smart design templates or even hire freelancers.',
+    link: 'https://codecanyon.net/user/doughouzdark'
+  },
+  {
+    id: uuid(),
     logo: logo_rassoul,
     company: 'Ras soul',
     description: "une maison d'édition numérique autodidacte et indépendante basée à Lyon, en France, qui cherche à fournir un contenu exclusif et de qualité à notre communauté de lecteurs dans le monde entier.",
     link: "https://rassoul.fr/accueil-2/"
-  },
-  {
-    id: uuid(),
-    logo: logo,
-    company: 'Ras soul',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur rerum ad mollitia eius molestiae accusamus nam est natus magnam.'
-  },
-  {
-    id: uuid(),
-    logo: logo,
-    company: 'Ras soul',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur rerum ad mollitia eius molestiae accusamus nam est natus magnam.'
-  },
-  {
-    id: uuid(),
-    logo: logo,
-    company: 'Ras soul',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur rerum ad mollitia eius molestiae accusamus nam est natus magnam.'
   },
 ]
 

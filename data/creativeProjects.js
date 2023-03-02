@@ -44,24 +44,24 @@ const creativeProjects = [
     tags: ''
   },
   // Brand ID
-  {
-    id: uuid(),
-    img: logo3,
-    title: 'Brand ID',
-    tags: ''
-  },
-  {
-    id: uuid(),
-    img: logo3,
-    title: 'Brand ID',
-    tags: ''
-  },
-  {
-    id: uuid(),
-    img: poster2,
-    title: 'Brand ID',
-    tags: ''
-  },
+  // {
+  //   id: uuid(),
+  //   img: logo3,
+  //   title: 'Brand ID',
+  //   tags: ''
+  // },
+  // {
+  //   id: uuid(),
+  //   img: logo3,
+  //   title: 'Brand ID',
+  //   tags: ''
+  // },
+  // {
+  //   id: uuid(),
+  //   img: poster2,
+  //   title: 'Brand ID',
+  //   tags: ''
+  // },
 ]
 
 export default creativeProjects
