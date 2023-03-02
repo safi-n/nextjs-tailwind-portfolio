@@ -22,11 +22,14 @@
   position: relative;
 }
 .tech-projects__scroll--button{
-  color: rgb(143, 143, 143);
-  padding-top: 2em;
+  display: flex;
+  border: 1px red solid;
+  color: rgb(83, 33, 33);
   width: 100vw;
+  justify-content: flex-end;
+  padding-right: 30em;
+  padding: 2em;
   overflow-x: hidden;
-  padding-left: 34%;
 }
 .project-item{
   cursor: pointer;

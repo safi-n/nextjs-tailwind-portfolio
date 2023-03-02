@@ -4,7 +4,7 @@ import logo_fintelion from '../public/assets/imgs/logo_fintelion.png'
 import logo_sbg from '../public/assets/imgs/SBGlogo.png'
 import logo_rassoul from '../public/assets/imgs/logo_rassoul.jpg'
 import logo_envato from '../public/assets/png/envato_logo.png'
-import logo from '../public/assets/png/JavascriptLogo.png'
+import logo_meteors from '../public/assets/png/logo_meteors.jpeg'
 
 const techProjects = [
   {
@@ -48,6 +48,13 @@ const techProjects = [
     company: 'Ras soul',
     description: "une maison d'édition numérique autodidacte et indépendante basée à Lyon, en France, qui cherche à fournir un contenu exclusif et de qualité à notre communauté de lecteurs dans le monde entier.",
     link: "https://rassoul.fr/accueil-2/"
+  },
+  {
+    id: uuid(),
+    logo: logo_meteors,
+    company: 'Meteors',
+    description: "We are meteors, Inc. a multidisciplinary cultural company with a customer-centric mentality working across business, design, development, and technology that Creates Awesome HTML & Wordpress & Script.",
+    link: "https://codecanyon.net/user/meteros"
   },
 ]
 
