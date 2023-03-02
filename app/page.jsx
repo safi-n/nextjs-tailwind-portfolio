@@ -8,7 +8,7 @@ import ProjectsTabs from "@/components/ProjectsTabs";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <HeroBanner/>
       <div className="space-bar bg-white"/>
       <Speciality/>
