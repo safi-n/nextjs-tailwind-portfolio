@@ -11,7 +11,7 @@ const TechProjects = () => {
           {techProjects.map((project) => {
             return (
               <li key={project.id} className="p-4 py-7 project-item">
-                <a href={project.link} target="_blank">
+                <a href={project.link} target="_blank" rel="noreferrer">
                   <p className="font-light mb-5">{project.description}</p>
                   <div className="company-brand flex items-center">
                     <Image
