@@ -11,16 +11,16 @@ const ProjectsUiUx = () => {
       <ul className="creative-projects__lists">
         {uiUxProjects.map((project) => {
           return (
-              <li className="creative-projects__list--item" key={project.id}>
-                <Image
-                  src={project.img}
-                  width="200"
-                  height="200"
-                  alt={project.title}
-                  priority
-                  onClick={() => setSelectedImage(project)}
-                />
-              </li>
+            <li className="creative-projects__list--item" key={project.id}>
+              <Image
+                src={project.img}
+                width="200"
+                height="200"
+                alt={project.title}
+                priority
+                onClick={() => setSelectedImage(project)}
+              />
+            </li>
           );
         })}
       </ul>
